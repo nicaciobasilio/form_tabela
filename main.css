@@ -1,0 +1,12 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.form, .table {
+    margin-top: 2rem;
+}
+
+.form {
+    margin-right: 1.5rem;
+}
+
