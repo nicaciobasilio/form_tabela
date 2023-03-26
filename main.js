@@ -33,11 +33,15 @@ button.onclick = function() {
     if (datas.length > 4) {
         alert('Selecione apenas um tipo de produto!');
         datas.splice(0, datas.length);
+        icon.classList.remove('d-none');
+        span.classList.add('d-none');
     } 
 
     else if (datas.length < 4) {
         alert('Selecione os campos faltantes');
         datas.splice(0, datas.length);
+        icon.classList.remove('d-none');
+        span.classList.add('d-none');
     } 
     
     // Limpa os campos e adiciona os valores na tabela
