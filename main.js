@@ -65,7 +65,7 @@ button.onclick = function() {
             });
             
             datas.splice(0, datas.length);
-        }, 500)
+        }, 1000)
     }
 }
 
